@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+//code is acquierd from john, bless his soul, I had a nightmare trying to figure these things out by myself.
 public class Player : MonoBehaviour
 {
 
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         Vector3 clamped = Vector3.ClampMagnitude(move * Time.deltaTime * 500, 500);
 
         //add my own gravity
-        clamped += Vector3.down * 10.0f;
+        //clamped += Vector3.down * 10.0f;
 
         //add the jump
         clamped += vert;

@@ -14,9 +14,10 @@ public class ConversastionStarter : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("E was pressed");
+            
             if (Input.GetKeyDown(KeyCode.E))
             {
+                Debug.Log("E was pressed");
                 ConversationManager.Instance.StartConversation(DogConversation);
             }
         }

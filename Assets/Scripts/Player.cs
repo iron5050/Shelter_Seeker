@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
     
     public float mouseSensitivity = 5.0f;
     public Transform playerCamera;
-    public float forwardMoveSpeed = 10.0f;
+    public float forwardMoveSpeed = 6.0f;
 
 
     private Rigidbody body;
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     {
         body = GetComponent<Rigidbody>();
         
-        //hide cursor
+        //hide cursor (it becomes visable in dialouge)
         Cursor.visible = false;
     }
 

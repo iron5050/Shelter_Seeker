@@ -9,7 +9,9 @@ public class Player : MonoBehaviour
     public float horizontalInput = 1.0f;
     public float verticalInput = 1.0f;
 
-    private float xRotation = 0f;
+    //not used
+    //private float xRotation = 0f;
+    
     public float mouseSensitivity = 5.0f;
     public Transform playerCamera;
     public float forwardMoveSpeed = 10.0f;

@@ -24,7 +24,7 @@ public class VictoryScript : MonoBehaviour
     //game closes
     private IEnumerator VictoryEnd()
     {
-        yield return new WaitForSeconds(7);
+        yield return new WaitForSeconds(5);
         Application.Quit();
         Debug.Log("Quit");
     }

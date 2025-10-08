@@ -6,6 +6,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private bool isPaused;
 
     //toggling escape key toggles if pause menu should or shouldn't be active
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -25,6 +26,7 @@ public class PauseMenu : MonoBehaviour
             Cursor.visible = false;
         }
     }
+
 
     //these controll the visability of the pause menu
     //audio listener is for wether the player should be able to hear sound while paused. 

@@ -17,6 +17,7 @@ public class ConversationStarterChiken : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))
             {
+                Cursor.visible = true;
                 Debug.Log("E was pressed");
                 ConversationManager.Instance.StartConversation(ChikenConversation);
             }

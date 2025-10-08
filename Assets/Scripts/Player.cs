@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     {
         body = GetComponent<Rigidbody>();
         
-        //hide cursor (it becomes visable in dialouge)
+        //hide cursor on start
         Cursor.visible = false;
     }
 
@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
         float speedH = Input.GetAxis("Horizontal");
         float speedV = Input.GetAxis("Vertical");
 
+        //ther is currently no limit on how much you can jump
         Vector3 vert = Vector3.zero;
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -63,8 +64,6 @@ public class Player : MonoBehaviour
 
         //look at the avatar
         playerCamera.LookAt(transform);
-
-        //TODO: remember how to do up/down look
 
     }
 }

@@ -553,13 +553,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NPCConversation
-  CurrentIDCounter: 7
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":27,"yPos":249},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
-    Horse, Can you help me find shelter for the night.","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":394,"yPos":254},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
-    Horse. Hope you can get back home in time.","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":223,"yPos":92},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Night
-    is soon approching I will have to gallop home very soon.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Horse","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":21,"yPos":356},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+  CurrentIDCounter: 5
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":129,"yPos":308},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
+    Horse, Can you help me find shelter for the night.","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":498,"yPos":312},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
+    Horse. Hope you can get back home in time.","parentUIDs":[0],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":1},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":true,"xPos":325,"yPos":151},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Night
+    is soon approching I will have to gallop home very soon.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Horse","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":122,"yPos":415},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"You
     are too small to ride on my back little Frog. However my friend Chiken might
-    have room for you in her tent.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Horse","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":398,"yPos":354},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Dont
+    have room for you in her tent.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Horse","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":500,"yPos":413},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Dont
     worry small Frog, I am the fastest animal in this forest. The night won''t catch
     me.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Horse","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":1}]}'
   saveVersion: 110
@@ -576,19 +576,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 723310046}
-        m_TargetAssemblyTypeName: DialougeMouseScript, Assembly-CSharp
-        m_MethodName: HideMouse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &72705712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -728,8 +716,6 @@ GameObject:
   m_Component:
   - component: {fileID: 111624806}
   - component: {fileID: 111624807}
-  - component: {fileID: 111624808}
-  - component: {fileID: 111624809}
   m_Layer: 0
   m_Name: VictoryZone
   m_TagString: Untagged
@@ -746,8 +732,8 @@ Transform:
   m_GameObject: {fileID: 111624805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.25, y: -0.13878, z: 34.37}
-  m_LocalScale: {x: 3.7147262, y: 3.7147262, z: 3.7147262}
+  m_LocalPosition: {x: -31.74, y: -0.13878, z: 34.53}
+  m_LocalScale: {x: 4.1555, y: 4.1555, z: 4.1555}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -773,117 +759,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &111624808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111624805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40fdbd5674251c743a655dc501d0a5d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VictoryScript
-  source: {fileID: 111624809}
-  clip: {fileID: 8300000, guid: 43e4da3fe5df9364ab644ec228a3f7e9, type: 3}
---- !u!82 &111624809
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111624805}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &113492513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3014,50 +2889,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9069115365609054727, guid: 60f79905accf3b24fa0114b941f1aac0, type: 3}
   m_PrefabInstance: {fileID: 682611682}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &723310044
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 723310045}
-  - component: {fileID: 723310046}
-  m_Layer: 0
-  m_Name: ConversastionMouseController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &723310045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 723310044}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.0113, y: -0.02212, z: 34.13237}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &723310046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 723310044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c67897c42f4ce104c93ee76a53901663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialougeMouseScript
 --- !u!1 &730297237
 GameObject:
   m_ObjectHideFlags: 0
@@ -4241,7 +4072,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 14.34436, y: -0.03095007, z: -33.79063}
-  m_LocalScale: {x: 1.8341631, y: 1.8341631, z: 1.8341631}
+  m_LocalScale: {x: 3.6964934, y: 3.6964934, z: 3.6964934}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 552037340}
@@ -4783,19 +4614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 723310046}
-        m_TargetAssemblyTypeName: DialougeMouseScript, Assembly-CSharp
-        m_MethodName: HideMouse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -4852,19 +4671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueEditor.NodeEventHolder
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 723310046}
-        m_TargetAssemblyTypeName: DialougeMouseScript, Assembly-CSharp
-        m_MethodName: HideMouse
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -5292,7 +5099,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 26.15036, y: -0.99811, z: -10.70063}
-  m_LocalScale: {x: 2.594928, y: 2.594928, z: 2.594928}
+  m_LocalScale: {x: 5.2297063, y: 5.2297063, z: 5.2297063}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 552037340}
@@ -5643,8 +5450,8 @@ Transform:
   m_GameObject: {fileID: 1558806048}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.20883192, z: -0, w: 0.9779516}
-  m_LocalPosition: {x: -8.4, y: -0.787, z: -4.92}
-  m_LocalScale: {x: 1.7832984, y: 1.7832984, z: 1.7832984}
+  m_LocalPosition: {x: -8.01, y: -0.787, z: -5.2400017}
+  m_LocalScale: {x: 3.2469654, y: 3.2469654, z: 3.2469654}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 552037340}
@@ -5772,8 +5579,8 @@ Transform:
   m_GameObject: {fileID: 1586513253}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.15564, y: -1.3478, z: -39.70063}
-  m_LocalScale: {x: 3.1355224, y: 3.1355224, z: 3.1355224}
+  m_LocalPosition: {x: -10.15564, y: -1.34777, z: -39.70063}
+  m_LocalScale: {x: 4.6593, y: 4.6593, z: 4.6593}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 552037340}
@@ -8065,7 +7872,6 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1032609139}
-  - {fileID: 723310045}
   - {fileID: 1614227817}
   - {fileID: 1812028284}
   - {fileID: 1389306302}
